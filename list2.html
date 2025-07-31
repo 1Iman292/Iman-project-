@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list2.css">
+    <title>Task River</title>
+</head>
+<body>
+    <header>
+        <div class="box-1">
+            <img class="left" src="/img/Group 129.svg" alt="Group">
+            <div class="box-2">
+                <ul>
+                    <li><a href="#"><span class="cell">Главная</span></a></li>
+                    <li> <a href="#"> Тарифы</a></li>
+                    <li> <a href="#"> Обучение</a></li>
+                    <li> <a href="#"> Обновления</a></li>
+                    <li> <a href="#"> О нас</a></li>
+                </ul>
+            </div>
+            <img class="right" src="/img/user.svg" alt="user">
+        </div>
+    </header>
+    <h1>ВЫБЕРИТЕ ТАРИФ</h1>
+    <h2>который подходит по вашему стилю работы и масштабу команды</h2>
+    <main>
+        <section class="Tarif">
+            <div class="cards">
+            <div class="section-1">
+                <h1 class="title-1">Бесплатный</h1>
+                <h2 class="title-2">Бесплатно навсегда для 10 пользователей</h2>
+                <h3 class="rouble-1">0₽</h3>
+                <button class="darkBut">Подключить</button>
+                <h4 class="title-4-1">Посмотреть возможности</h4>
+            </div>
+            <div class="section-2">
+                <h1 class="standart">Стандарт</h1>
+                <h2 class="begin">Все, что вам нужно,чтобы начать</h2>
+                <div class="time">
+                    <p class="month">месяц</p>
+                    <p class="year">год</p>
+                </div>
+                <h3 class="rouble-2">0₽</h3>
+                <button class="lightkBut">Подключить</button>
+                <p class="test">Попробовать</p>
+                <h4 class="title-4-2">Посмотреть возможности</h4>
+            </div>
+            <div class="section-3">
+                <h1 class="premium">Премиум</h1>
+                <h2 class="comand">Объедините несколько команд </h2>
+                <div class="time-2">
+                    <p class="month-2">месяц</p>
+                    <p class="year-2">год</p>
+                </div>
+                <h3 class="rouble-3">0₽</h3>
+                <button class="darkBut2">Подключить</button>
+                <p class="connect">Связаться с нами</p>
+                <h4 class="title-4-3">Посмотреть возможности</h4>
+            </div>
+            </div>
+            <div class="section-4">
+                <p class="settings">Пользовательские настройки</p>
+            </div>
+        </section>
+        
+        <section class="pricing-table" aria-label="Таблица тарифов">
+            <nav>
+            <h1 class="headline">Сравни за и против, <strong>и подбери тариф</strong></h1>
+            </nav>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Бесплатный</th>
+                        <th>Стандарт</th>
+                        <th>Премиум</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        <td><img src="/img/галочка/vuesax/linear/tick-circle.svg"></td>
+                        <td><img src="/img/галочка/vuesax/linear/tick-circle.svg"></td>
+                        <td><img src="/img/галочка/vuesax/linear/tick-circle.svg"></td>
+                    </tr>
+                    <tr>
+                        <td>Yorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        <td><img src="/img/галочка/vuesax/linear/tick-circle.svg"></td>
+                        <td><img src="/img/галочка/vuesax/linear/tick-circle.svg"></td>
+                        <td><img src="/img/галочка/vuesax/linear/tick-circle.svg"></td>
+                    </tr>
+                    <tr>
+                        <td>Yorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        <td><img src="/img/крестик/vuesax/linear/close-circle.svg"></td>
+                        <td><img src="/img/крестик/vuesax/linear/close-circle.svg"></td>
+                        <td><img src="/img/крестик/vuesax/linear/close-circle.svg"></td>
+                    </tr>
+                    <tr>
+                        <td>Yorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                        <td><img src="/img/крестик/vuesax/linear/close-circle.svg"></td>
+                        <td><img src="/img/крестик/vuesax/linear/close-circle.svg"></td>
+                        <td><img src="/img/крестик/vuesax/linear/close-circle.svg"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="persSettings">Подбор персональных настроек</p>
+            <div class="PersonalSettings">
+        <div class="slider-title">Период</div>
+        <div class="slider" id="periodSlider">
+            <div class="slider-track"></div>
+            <div class="slider-fill" id="sliderFill"></div>
+            <div class="slider-thumb" id="sliderThumb"></div>
+        </div>
+        <div class="slider-values">
+            <span>1 месяц</span>
+            <span>2 года</span>
+        </div>
+        <div class="selected-value" id="selectedValue">1 год</div>
+        <div class="employees-slider-heading">Количество сотрудников</div>
+        <div class="employees-range-slider" id="employeesRangeSlider">
+            <div class="employees-slider-base"></div>
+            <div class="employees-slider-progress" id="employeesSliderProgress"></div>
+            <div class="employees-slider-handle" id="employeesSliderHandle"></div>
+        </div>
+        <div class="employees-range-labels">
+            <span>5</span>
+            <span>100</span>
+        </div>
+        <div class="employees-selected-wrapper">
+            <div class="employees-selected-value" id="employeesSelectedValue">50</div>
+            <div class="employees-unit-label">сотрудников</div>
+        </div>
+    </div>
+    
+        </section>
+        <script>
+        const slider = document.getElementById('periodSlider');
+        const thumb = document.getElementById('sliderThumb');
+        const fill = document.getElementById('sliderFill');
+        const selectedValue = document.getElementById('selectedValue');
+        
+        let isDragging = false;
+        
+        // Функция для расчета периода
+        function calculatePeriod(percent) {
+            // Линейная интерполяция между 1 месяцем (1) и 2 годами (24 месяца)
+            const months = 1 + (24 - 1) * percent;
+            
+            if (months < 12) {
+                return Math.round(months) + ' месяц' + (Math.round(months) > 1 ? 'ев' : '');
+            } else {
+                const years = months / 12;
+                return years.toFixed(1) + ' год' + (years.toFixed(1) !== '1.0' ? 'а' : '');
+            }
+        }
+        
+        // Функция обновления позиции
+        function updatePosition(clientX) {
+            const rect = slider.getBoundingClientRect();
+            let percent = (clientX - rect.left) / rect.width;
+            percent = Math.max(0, Math.min(1, percent));
+            
+            thumb.style.left = `${percent * 100}%`;
+            fill.style.width = `${percent * 100}%`;
+            
+            selectedValue.textContent = calculatePeriod(percent);
+        }
+        
+        // Обработчики событий
+        thumb.addEventListener('mousedown', () => {
+            isDragging = true;
+        });
+        
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                updatePosition(e.clientX);
+            }
+        });
+        
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+        
+        slider.addEventListener('click', (e) => {
+            updatePosition(e.clientX);
+        });
+        
+        // Инициализация
+        updatePosition(slider.getBoundingClientRect().left + slider.offsetWidth / 2);
+    </script>
+    <script>
+        const employeesSlider = document.getElementById('employeesRangeSlider');
+        const employeesHandle = document.getElementById('employeesSliderHandle');
+        const employeesProgress = document.getElementById('employeesSliderProgress');
+        const employeesValue = document.getElementById('employeesSelectedValue');
+        
+        let employeesDragging = false;
+        const employeesMin = 5;
+        const employeesMax = 100;
+        
+        function calculateEmployeesValue(percent) {
+            return Math.round(employeesMin + (employeesMax - employeesMin) * percent);
+        }
+        
+        function updateEmployeesPosition(clientX) {
+            const rect = employeesSlider.getBoundingClientRect();
+            let percent = (clientX - rect.left) / rect.width;
+            percent = Math.max(0, Math.min(1, percent));
+            
+            const value = calculateEmployeesValue(percent);
+            
+            employeesHandle.style.left = `${percent * 100}%`;
+            employeesProgress.style.width = `${percent * 100}%`;
+            
+            employeesValue.textContent = value;
+        }
+        
+        employeesHandle.addEventListener('mousedown', (e) => {
+            employeesDragging = true;
+            e.preventDefault();
+        });
+        
+        document.addEventListener('mousemove', (e) => {
+            if (employeesDragging) {
+                updateEmployeesPosition(e.clientX);
+            }
+        });
+        
+        document.addEventListener('mouseup', () => {
+            employeesDragging = false;
+        });
+        
+        employeesSlider.addEventListener('click', (e) => {
+            updateEmployeesPosition(e.clientX);
+        });
+        
+        employeesHandle.addEventListener('touchstart', (e) => {
+            employeesDragging = true;
+            e.preventDefault();
+        });
+        
+        document.addEventListener('touchmove', (e) => {
+            if (employeesDragging) {
+                updateEmployeesPosition(e.touches[0].clientX);
+            }
+        });
+        
+        document.addEventListener('touchend', () => {
+            employeesDragging = false;
+        });
+        
+        const initialEmployeesPos = employeesSlider.getBoundingClientRect().left + employeesSlider.offsetWidth / 2;
+        updateEmployeesPosition(initialEmployeesPos);
+    </script>
+
+    </main>
+        <footer>
+        <div class="content-1">
+            <img class="content-img" src="/img/Group 138 1.svg" alt="Group">
+            <ul class="style">
+                <li  > <a>Контакты</a></li>
+                <li  > <a>О нас</a></li>
+                <li  > <a>Обновления</a></li>
+                <li  > <a>Задать вопрос</a></li>
+                <li  > <a>Политика конфиденциальности</a></li>
+                <li > <a>Публичная оферта</a></li>
+                
+            </ul>
+        </div>
+        <div class="content-2">
+            <div class="content-2-1">
+            <p>Предложения</p>
+                <p>info@taskriver.com</p>
+            <p>Поддержка</p>
+                <p>support@taskriver.com
+            </p>
+            </div>
+            <img class="url-1" src="/img/Vector3.svg">
+            <img class="url-2" src="/img/Vector (1).svg">
+            <img class="url-3" src="/img/Vector (2).svg">
+        </div>
+    </footer>
+</body>
+</html>
